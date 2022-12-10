@@ -1,0 +1,19 @@
+@keyframes gmTransition {
+    0%   { background: #fffbf2; }
+
+    100% { background: #450062; }
+}
+
+:root{
+    --bs-navbar-color: var(--bs-gray-300) ;
+    
+    --bs-navbar-active-color: var(--bs-light) ;
+    --bs-navbar-brand-color: var(--bs-light);
+    --bs-info: #f535aa;
+    --bs-info-rgb: rgb(245,53,170);
+
+}
+body{
+    background:#450062;
+    animation:gmTransition 5s;
+}
